@@ -1,76 +1,79 @@
-# Redimensionador de Imagens em C# 🖼️🔧
 
-Este projeto é uma aplicação desenvolvida em **C#** para redimensionar imagens de forma eficiente. Permite ajustar as dimensões de imagens mantendo a qualidade, sendo útil para diversos casos, como preparação de imagens para web, criação de miniaturas (*thumbnails*) e otimização de espaço de armazenamento.
+# Redimensionador de Imagens em C#
 
----
+Esse projeto é uma aplicação simples em C# voltada para redimensionar imagens de forma eficiente, mantendo qualidade e oferecendo flexibilidade para quem precisa ajustar imagens para web, criar thumbnails ou economizar espaço em disco.
 
-## 🛠️ Funcionalidades
-
-- **Redimensionamento Personalizado:** Permite definir novas larguras e alturas para as imagens.
-- **Preservação de Proporção:** Opção para manter a proporção original da imagem ao redimensionar.
-- **Processamento em Lote:** Possibilidade de redimensionar múltiplas imagens simultaneamente.
-- **Suporte a Diversos Formatos:** Compatível com formatos comuns como JPEG, PNG, BMP, entre outros.
+O foco aqui é automatizar uma tarefa comum e garantir que o processo seja rápido, confiável e reaproveitável.
 
 ---
 
-## 📋 Pré-requisitos
+## O que o projeto faz
 
-- **.NET Framework:** Certifique-se de que o .NET Framework esteja instalado no seu sistema.
-- **Sistema Operacional:** Compatível com Windows 7 ou superior.
-
----
-
-## 🚀 Como Executar o Projeto
-
-1. **Clone o Repositório:**
-
-   ```bash
-   git clone https://github.com/jeffersonvalente/redimensionador.git
-   cd redimensionador
-   ```
-
-2. **Abra o Projeto no Visual Studio:**
-
-   - Localize e abra o arquivo de solução (`.sln`) no Visual Studio.
-
-3. **Compile o Projeto:**
-
-   - No Visual Studio, selecione "Build" > "Build Solution" para compilar o projeto.
-
-4. **Execute a Aplicação:**
-
-   - Após a compilação bem-sucedida, pressione `F5` ou clique em "Debug" > "Start Debugging" para executar a aplicação.
-
-5. **Utilize o Redimensionador:**
-
-   - Na interface da aplicação, selecione as imagens que deseja redimensionar, defina as configurações desejadas e inicie o processo.
+- Redimensiona imagens com base em largura e altura definidas
+- Permite manter a proporção original da imagem
+- Suporta redimensionamento em lote
+- Funciona com formatos comuns como JPEG, PNG e BMP
 
 ---
 
-## 🗂️ Estrutura do Projeto
+## Requisitos
 
-- **/src:** Contém o código-fonte da aplicação.
-- **/resources:** Inclui recursos como imagens de exemplo e arquivos de configuração.
-- **/docs:** Documentação adicional sobre o projeto.
-
----
-
-## 🤝 Contribuições
-
-Contribuições são bem-vindas! Sinta-se à vontade para abrir issues e pull requests com sugestões de melhorias ou correções.
+- .NET Framework instalado
+- Compatível com Windows 7 ou superior
 
 ---
 
-## 📄 Licença
+## Como executar
 
-Este projeto está sob a licença MIT. Veja o arquivo [LICENSE](LICENSE) para mais detalhes.
+1. Clone o repositório:
+
+```bash
+git clone https://github.com/jeffersonvalente/redimensionador.git
+cd redimensionador
+```
+
+2. Abra no Visual Studio
+
+- Localize o arquivo `.sln` e abra pelo Visual Studio
+
+3. Compile:
+
+- Use a opção `Build > Build Solution`
+
+4. Execute:
+
+- Pressione `F5` ou `Debug > Start Debugging`
+
+5. Use a aplicação:
+
+- Escolha as imagens, defina os parâmetros e inicie o redimensionamento.
 
 ---
 
-## 📞 Contato
+## Estrutura do Projeto
 
-Para dúvidas, entre em contato:
+```plaintext
+redimensionador/
+├── /src         # Código-fonte principal da aplicação
+├── /resources   # Imagens de exemplo e configurações
+└── /docs        # Documentação adicional
+```
 
-- **Autor:** Jefferson Valente
-- **LinkedIn:** [jefferson-hoy-valente](https://www.linkedin.com/in/jefferson-hoy-valente/)
+---
 
+## Contribuições
+
+Sugestões e melhorias são bem-vindas.  
+Se quiser contribuir, abra uma issue ou envie um pull request.
+
+---
+
+## Licença
+
+MIT — veja o arquivo LICENSE
+
+---
+
+## Contato
+
+LinkedIn: https://www.linkedin.com/in/jefferson-hoy-valente/
