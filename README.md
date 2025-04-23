@@ -68,12 +68,6 @@ Se quiser contribuir, abra uma issue ou envie um pull request.
 
 ---
 
-## Licença
-
-MIT — veja o arquivo LICENSE
-
----
-
 ## Contato
 
 LinkedIn: https://www.linkedin.com/in/jefferson-hoy-valente/
